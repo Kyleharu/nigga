@@ -20,30 +20,15 @@
     "hideNotiMessage": true
   },
   "adminBot": [
-    "100080099546468",
-    "100041931226770",
-    "100057399829870",
-    "61557519455411",
-    "100091084029785",
-    "100042061672382"],
+    "100052395031835"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100080099546468",
-      "100041931226770",
-      "100057399829870",
-      "61557519455411",
-      "100091084029785",
-      "100042061672382",
-      "100062127322485",
-      "100075036630413",
-      "100077098943681",
-      "100025475539441",
-      "100029185118069"],
+      "100052395031835"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "~CaT♡",
-  "prefix": "-",
+  "nickNameBot": "𝙆𝙔𝙍𝙄𝙀𝙇 𝘼𝙄",
+  "prefix": "×",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://catbot:aEN2ypaUWdmE1X8D@cluster0.quk1rri.mongodb.net/GoatBotV2?retryWrites=true&w=majority&appName=Cluster0",
@@ -51,7 +36,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Dhaka",
+  "timeZone": "Asia/manila",
   "credentials": {
     "gmailAccount": {
       "email": "esteliaelora57@gmail.com",
