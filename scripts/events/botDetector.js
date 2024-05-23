@@ -48,7 +48,7 @@ module.exports = {
         const groupName = threadInfo.name;
         const adminBoxId = "7388254684526242";
 
-        const botMessage = `🚫 Multiple bots have been detected in this group:\n\n${detectedBots
+        const botMessage = `⚠️ Multiple bots have been detected in this group:\n\n${detectedBots
           .map(bot => `Bot Name: ${bot.name}\nBot ID: ${bot.id}`)
           .join('\n\n')}\n\nPermission will be disapproved.`;
 
