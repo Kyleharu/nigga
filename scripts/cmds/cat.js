@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "cat",
+    name: "chat",
     version: "1.1",
     author: "NZ R",
     category: "Chat~AI",
@@ -45,10 +45,10 @@ module.exports = {
         });
       } catch (error) {
         console.error(error);
-        message.reply('Chup tumi pocha tomar sathe kotha nai amak msg dio na 😾');
+        message.reply('heyyy whats wrong to you😾');
       }
     } catch (error) {
-      message.reply('Chup tmr sathe kotha bolbo na! 😾: ' + error.message);
+      message.reply('SORRY THE SIM IS NOT WORKING PLEASE TRY AGAIN LATER NIGGA! 😾: ' + error.message);
     }
   },
   onStart: function ({ args, message }) {
