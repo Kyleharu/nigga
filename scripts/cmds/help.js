@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = " 😺 | 𝙲𝚊𝚃 𝙰𝚛𝚊 ";
+const doNotDelete = "𝗞𝗬𝗟𝗘'𝗦 AI𓃵";
 
 module.exports = {
   config: {
     name: "help",
     version: "1.18",
-    author: "Mohammad Alamin",
+    author: "KYLEPOGI",
     countDown: 5,
     role: 0,
     shortDescription: {
