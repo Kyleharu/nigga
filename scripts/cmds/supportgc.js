@@ -18,7 +18,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, args, message, event }) {
-    const supportGroupId = "24573771252237853"; // ID of the support group
+    const supportGroupId = "6934711683285483"; // ID of the support group
 
     const threadID = event.threadID;
     const userID = event.senderID;
@@ -29,7 +29,7 @@ module.exports = {
 
       if (participantIDs.includes(userID)) {
         api.sendMessage(
-          "👤 You're already part of the CaT Ara ❈ [ Support Box ] If you can't find it, check your message requests or spam box.",
+          "👤 You're already part of the 𝙆𝙔𝙇𝙀'𝙎 𝙂𝙍𝙊𝙐𝙋 ➤ [ Support Box ] If you can't find it, check your message requests or spam box.",
           threadID
         );
       } else {
@@ -42,7 +42,7 @@ module.exports = {
             );
           } else {
             api.sendMessage(
-              "🚀 Welcome to CaT Ara ❈ [ Support Zone ] You now have access to enjoy in CaT Ara Support Zone. Check your inbox for details.",
+              "🚀 Welcome to 𝙆𝙔𝙇𝙀'𝙎 𝙂𝙍𝙊𝙐𝙋 [ Support Zone ] You now have access to enjoy in CaT Ara Support Zone. Check your inbox for details.",
               threadID
             );
             // Additional welcome message or actions can be added here
