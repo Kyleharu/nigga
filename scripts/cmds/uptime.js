@@ -1,5 +1,5 @@
 const moment = require('moment-timezone');
-moment.tz.setDefault('Asia/Dhaka');
+moment.tz.setDefault('Asia/manila');
 const os = require('os');
 
 module.exports = {
