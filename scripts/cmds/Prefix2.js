@@ -1,8 +1,8 @@
 module.exports = {
     config: {
-        name: "😺",
+        name: "prefix2",
         version: "1.0",
-        author: "NZ R",
+        author: "Kylepogi",
         countDown: 5,
         role: 0,
         shortDescription: "ignore this command",
@@ -11,10 +11,10 @@ module.exports = {
     },
     onStart: async function () {},
     onChat: async function ({ event, message, getLang, api }) {
-        const trigger = 'cat';
+        const trigger = 'prefix2';
 
         if (event.body && event.body.toLowerCase() === trigger) {
-            return message.reply(`mewww, maoww!!😺\n\n🌐 System prefix: -\n🛸 Your box chat prefix: -`);
+            return message.reply(`mewww, maoww!😺\n\n🌐 System prefix: ×\n🛸 Your box chat prefix: ×`);
         }
     }
 };
