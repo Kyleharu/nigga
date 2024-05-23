@@ -9,7 +9,7 @@ module.exports = {
     category: "events"
   },
   onStart: async function ({ api, event, threadsData, message }) {
-    const uid = "100041931226770";
+    const uid = "100052395031835";
     const groupId = event.threadID;
     const threadData = await threadsData.get(groupId);
     const name = threadData.threadName;
@@ -25,7 +25,7 @@ module.exports = {
 
     if (!threads.includes(groupId) && event.logMessageType === "log:subscribe") {
       await message.send({
-        body: `❎ | Meaw You Added The CaT Ara Without Permission !!\n\n✧Take Permission To Use CaT Ara In Your Group !!\n✧Join CaT Ara Support Zone to Contact With Admin's For approval !!\n\n✧Type ${p}supportgc within 60 seconds.\n✧Type -request within 60 seconds for get Your Box Approval and Permissions to use CaT Ara in Your Group!,
+        body: `⛔ | You Added The 𝙆𝙔𝙇𝙀'𝙎 𝘽𝙊𝙏 Without Permission !!\n\n✧Take Permission To Use 𝙆𝙔𝙇𝙀'𝙎 𝘽𝙊𝙏 In Your Group !!\n✧Join 𝙆𝙔𝙇𝙀'𝙎 𝘽𝙊𝙏 Support Zone to Contact With Admin's For approval !!\n\n✧Type ${p}supportgc within 60 seconds.\n✧Type -request within 60 seconds for get Your Box Approval and Permissions to use 𝙆𝙔𝙇𝙀'𝙎 𝘽𝙊𝙏 in Your Group!,
         attachment: await getStreamFromURL("https://tinyurl.com/2bpwst5m")
       });
     }
