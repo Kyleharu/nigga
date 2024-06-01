@@ -20,15 +20,16 @@
     "hideNotiMessage": true
   },
   "adminBot": [
+    "61559945955416", 
     "100052395031835"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100052395031835"],
+      ""],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "{ × } ✵➣ 𝑲𝒀𝑹𝑰𝑬𝑳𝑉2",
-  "prefix": "×",
+  "nickNameBot": "{ ! } ✵➣ 𝙈𝘼𝙍𝙆 𝘼𝙄",
+  "prefix": "!",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://catbot:aEN2ypaUWdmE1X8D@cluster0.quk1rri.mongodb.net/GoatBotV2?retryWrites=true&w=majority&appName=Cluster0",
